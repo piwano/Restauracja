@@ -1,0 +1,10 @@
+[
+  {
+    "BasePrice": 20,
+    "IsVegetarian": true,
+    "Toppings": [],
+    "TotalPrice": 20,
+    "Id": 292,
+    "Name": "Margherita"
+  }
+]

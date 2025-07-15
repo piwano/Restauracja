@@ -1,0 +1,12 @@
+Zamówienie złożone!
+
+Pozycji: 4
+Suma: 44,00 zł
+
+Klient: aaaaaaaaa aaaaaaaaaaaaaaa
+Email: adsfgh@
+Telefon: 1234567
+
+Sposób odbioru: Dowóz do domu
+Adres: 78ed8d8
+Czas oczekiwania: 69 minut

@@ -1,0 +1,23 @@
+[
+  {
+    "Price": 8.0,
+    "IsAlcoholic": false,
+    "DisplayText": "Cola - 8,00 PLN",
+    "Id": 218,
+    "Name": "Cola"
+  },
+  {
+    "Price": 8.0,
+    "IsAlcoholic": false,
+    "DisplayText": "Cola - 8,00 PLN",
+    "Id": 946,
+    "Name": "Cola"
+  },
+  {
+    "Price": 12.0,
+    "IsAlcoholic": true,
+    "DisplayText": "Piwo - 12,00 PLN",
+    "Id": 802,
+    "Name": "Piwo"
+  }
+]

@@ -1,0 +1,22 @@
+	<Project Sdk="Microsoft.NET.Sdk">
+
+		<PropertyGroup> 
+  <OutputType>WinExe</OutputType> 
+  <TargetFramework>net8.0-windows</TargetFramework> 
+  <UseWindowsForms>true</UseWindowsForms> 
+</PropertyGroup>
+
+		<ItemGroup>
+		  <None Remove="pizza.png" />
+		</ItemGroup>
+
+		<ItemGroup>
+		  <Content Include="pizza.png">
+		    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  </Content>
+		</ItemGroup> 
+<ItemGroup> 
+  <ProjectReference Include="..\Core\Core.csproj" /> 
+  <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" /> 
+</ItemGroup> 
+</Project> 
