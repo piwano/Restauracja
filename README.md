@@ -58,7 +58,7 @@ Aplikacja desktopowa w C# (WinForms) do zarządzania zamówieniami w restauracji
 
 - `WinFormsUI/` — interfejs użytkownika, formularze WinForms: `MainForm`, `PizzaForm`, `SauceForm`, `TableReservationForm` itd.  
 - `Core.Models/` — modele biznesowe: `Food`, `Drink`, `Topping`, `MenuItem`  
-- `Infrastructure.Repositories/` — (opcjonalnie) warstwa dostępu do danych (np. do zapisywania rezerwacji)  
+- `Infrastructure.Repositories/` — warstwa dostępu do danych (np. do zapisywania rezerwacji)  
 - `MainForm.cs` — główny formularz zarządzający zamówieniem  
 - `TableReservationForm.cs` — formularz rezerwacji stolika  
 
