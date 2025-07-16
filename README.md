@@ -80,6 +80,23 @@ Abstrakcja: Kod ukrywa szczegóły działania klas takich jak Drink, PizzaForm, 
 Przykład:
 <img width="509" height="72" alt="ss5" src="https://github.com/user-attachments/assets/784ae493-442d-4693-9d42-2a4085aea259" />
 
+Hermetyzacja: Dane, takie jak availableDrinks, są przechowywane jako prywatna lista (private List<Drink> availableDrinks) – inne klasy nie mają bezpośredniego dostępu do tej listy. Dostęp do niej odbywa się tylko poprzez metody klasy MainForm.
+Przykład:
+<img width="575" height="47" alt="ss6" src="https://github.com/user-attachments/assets/6e9f8e9d-5af7-4d03-96f4-072c50da3f13" />
+
+Polimorfizm: Polimorfizm pojawia się np. przy pracy z kolekcją listBox.Items, która może zawierać różne typy danych w postaci tekstu (opis pizzy, sosu, napoju), ale dla każdego elementu działa ta sama metoda ExtractPrice():
+Bez względu na to, czy jest to "Cola - 8.00 zł" czy "Sos czosnkowy - 2,00 zł" — metoda przetwarza każdy z nich jednakowo 
+Przykład:
+<img width="536" height="73" alt="ss7" src="https://github.com/user-attachments/assets/068583e6-b148-4e93-a61e-79baa4527234" />
+
+Dziedziczenie: Klasa Food dziedziczy po klasie MenuItem.
+Oznacza to, że Food dziedziczy wszystkie publiczne i chronione elementy (pola, właściwości, metody) z MenuItem.
+Jeśli MenuItem zawiera metody abstrakcyjne, klasa Food musi je zaimplementować, chyba że sama również będzie klasą abstrakcyjną.
+Dzięki dziedziczeniu, możemy traktować różne elementy menu (np. Food, Drink, Sauce) jako MenuItem i obsługiwać je w jednolity sposób.
+
+Przykład:
+<img width="323" height="43" alt="dzie1" src="https://github.com/user-attachments/assets/50201e7d-ba39-45c9-a5ca-a4413aef4855" />
+<img width="301" height="32" alt="dzie2" src="https://github.com/user-attachments/assets/d97d036c-b171-40cb-95d8-08e3aff75b26" />
 
 ---
 
