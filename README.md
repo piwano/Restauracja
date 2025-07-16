@@ -74,6 +74,15 @@ Aplikacja desktopowa w C# (WinForms) do zarządzania zamówieniami w restauracji
 
 ---
 
+## Paradygmat obiektowy
+
+Abstrakcja: Kod ukrywa szczegóły działania klas takich jak Drink, PizzaForm, SauceForm, pokazując tylko to, co istotne dla użytkownika (np. nazwa napoju i cena). Użytkownik nie musi wiedzieć, jak wygląda implementacja klasy Drink.
+Przykład:
+<img width="509" height="72" alt="ss5" src="https://github.com/user-attachments/assets/784ae493-442d-4693-9d42-2a4085aea259" />
+
+
+---
+
 ## Możliwe rozszerzenia
 
 - Dodanie bazy danych do przechowywania zamówień i rezerwacji  
