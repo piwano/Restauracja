@@ -64,7 +64,7 @@ Aplikacja desktopowa w C# (WinForms) do zarządzania zamówieniami w restauracji
 
 ---
 
-##Screenshoty
+## Screenshoty
 
 
 ![ss1](https://github.com/user-attachments/assets/7575c4f3-5f58-4d0b-8730-3d32acf349b0)
